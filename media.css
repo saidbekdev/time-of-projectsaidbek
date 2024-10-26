@@ -1,0 +1,108 @@
+@media (min-width: 320px)  and (max-width: 390px) {
+    .container {
+      width: 80%;
+      height:   80%;
+      grid-template-rows: 25% 75%;
+    }
+    
+    h1 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      padding: 0 0.5rem;
+    }
+    
+    .box {
+     margin-top: -50px;
+     margin-left: -6px;
+      display: grid;
+      grid-template-rows: auto auto auto;
+      
+    }
+    
+    .clock {
+      width: 110%;
+      font-size: 1rem;
+      height: 5.5rem;
+      margin: 1px 1px;
+    }
+    
+    .front-clock {
+      padding: 0.4rem;
+      font-size: 2rem;
+      padding-top: 15px;
+      width: 90%;
+      height: 90%;
+    }
+   
+  }
+
+
+@media (min-width: 390px) and (max-width: 844px) {
+    .container {
+      width: 80%;
+      height: 40%;
+      grid-template-rows: 25% 75%;
+    }
+    
+    h1 {
+      margin-top: 1rem;
+      font-size: 2rem;
+      padding: 0 0.5rem;
+    }
+    
+    .box {
+     
+      display: flex;
+      
+    }
+    
+    .clock {
+      width: 50%;
+      font-size: 2rem;
+      height: 6rem;
+      margin: 5px 5px;
+    }
+    
+    .front-clock {
+      padding: 0.4rem;
+      font-size: 2rem;
+      padding-top: 15px;
+      width: 90%;
+      height: 90%;
+    }
+   
+  }
+  @media (min-width: 844px) and (max-width: 1234px) {
+    .container {
+      width: 80%;
+      grid-template-rows: 25% 75%;
+    }
+    
+    h1 {
+      margin-top: rem;
+      font-size: 4rem;
+      padding: 0 0.5rem;
+    }
+    
+    .box {
+     
+      display: flex;
+      
+    }
+    
+    .clock {
+      width: 50%;
+      font-size: 2rem;
+      height: 6rem;
+      margin: 8px 8px;
+    }
+    
+    .front-clock {
+      padding: 0.4rem;
+      font-size: 2rem;
+      padding-top: 15px;
+      width: 90%;
+      height: 90%;
+    }
+   
+  }
